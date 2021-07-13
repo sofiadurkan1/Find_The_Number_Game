@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer></script>
     <title>Guess Number</title>
 </head>
 <body>
@@ -16,9 +15,9 @@
 
         </div>
         <div class="checkbox">
-            <input type="number" id="number" >
+            <input type="number" id="userInput" >
             <input type="submit" id="submit" value="CHECK">
-            <input type="submit" id="submit" value="RESTART">
+            <input type="submit" id="restart" value="RESTART">
 
         </div>
         <div class="image">
@@ -29,12 +28,15 @@
 
         </div>
         <div class="result">
-            <p class="LowOrHi"></p>
-            <p>Number of attempts : </p>
+            <span id="won"></span>
+            <p>Number of attempts : <span id="count"></span> </p>
 
         </div>
 
 
     </div>
+
+    <script src="app.js"></script>
+
 </body>
 </html>
