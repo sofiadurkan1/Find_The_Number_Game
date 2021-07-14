@@ -50,3 +50,30 @@ p,
 .result {
   margin: 0px;
 }
+@media screen and (max-width:700px){
+    
+    .container {
+  background-color: rgb(117, 181, 241);
+  border: 5px solid rgb(28, 0, 128);
+  height: 400px;
+  width: 500px;
+  margin-top: 300px;
+  margin-left: 100px;
+  text-align: center;
+  padding: 5px;
+
+    }
+    #userInput {
+        width: 170px;
+        height: 50px;
+        margin: 30px;
+      }
+      #submit {
+        width: 15%;
+        height: 50px;
+      }
+      #restart {
+        width: 15%;
+        height: 50px;
+      }
+}
