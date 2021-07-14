@@ -32,7 +32,7 @@ restartbtn.addEventListener("click", function () {
   location.reload();
 });
 inputUser.addEventListener("keyup", function (event) {
-  if (event.keyCode === 13) {
+  if (event.code === 'Enter') {
     event.preventDefault();
     document.getElementById("submit").click();
   }
