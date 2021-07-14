@@ -11,12 +11,12 @@ body {
 .container {
   background-color: rgb(117, 181, 241);
   border: 5px solid rgb(28, 0, 128);
-  height: 400px;
-  width: 800px;
-  margin-top: 300px;
-  margin-left: 500px;
+  height: 25em;
+  width: 50em;
+  margin-top: 18.75em;
+  margin-left: 31.25em;
   text-align: center;
-  padding: 30px;
+  padding: 1.875em;
 }
 p,
 #won {
