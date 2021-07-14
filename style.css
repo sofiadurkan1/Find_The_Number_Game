@@ -11,8 +11,8 @@ body {
 .container {
   background-color: rgb(117, 181, 241);
   border: 5px solid rgb(28, 0, 128);
-  height: 25em;
-  width: 50em;
+  height: 40%;
+  width: 40%;
   margin-top: 18.75em;
   margin-left: 31.25em;
   text-align: center;
@@ -26,17 +26,17 @@ p,
 }
 
 #userInput {
-  width: 400px;
+  width:60%;
   height: 40px;
-  margin: 40px;
+  margin: 10px;
 }
 
 #submit {
-  width: 10%;
+  width: 60px;
   height: 40px;
 }
 #restart {
-  width: 10%;
+  width: 70px;
   height: 40px;
 }
 #restart:hover {
