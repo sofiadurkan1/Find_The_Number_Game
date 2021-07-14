@@ -1,73 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
-body{
-    background-image: url(./images/wallpaper.jpeg);
-    /* display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%; */
-    
-
+body {
+  background-image: url(./images/wallpaper.jpeg);
 }
-.container{
-/*     
-margin-top:60px;
-box-shadow: 0 14px 28px rgba(0, 0, 0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-border-radius:4px; */
- background-color: rgb(117, 181, 241);
- border: 5px solid rgb(28, 0, 128);
- height:400px;
- width:800px;
- margin-top:300px;
- margin-left: 500px;
- text-align: center;
- padding:30px;
- 
-
-
-
+.container {
+  background-color: rgb(117, 181, 241);
+  border: 5px solid rgb(28, 0, 128);
+  height: 400px;
+  width: 800px;
+  margin-top: 300px;
+  margin-left: 500px;
+  text-align: center;
+  padding: 30px;
 }
-p, #won{
-    color:rgb(21, 0, 128);
-    font-size:2rem
-
-   
+p,
+#won {
+  color: rgb(21, 0, 128);
+  font-size: 2rem;
+  padding: 10px;
 }
 
-/* .checkbox{
-    width:100px;
-    margin:25px auto;
-   
-} */
-#userInput{
-    width: 400px;
-    height: 40px;
-    margin: 40px;
-    
-    
-    
-    
+#userInput {
+  width: 400px;
+  height: 40px;
+  margin: 40px;
 }
 
-#submit{
-    width:10%;
-    height:40px;
+#submit {
+  width: 10%;
+  height: 40px;
 }
-#restart{
-    width:10%;
-    height:40px;
-
+#restart {
+  width: 10%;
+  height: 40px;
 }
-#submit:hover{
-    background-color: blue;
+#restart:hover {
+  background-color: purple;
+  color: white;
 }
-.result{
-    margin:60px
+#submit:hover {
+  background-color: blue;
+  color: white;
+}
+.result {
+  margin: 0px;
 }
